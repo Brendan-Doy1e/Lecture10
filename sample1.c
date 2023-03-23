@@ -20,7 +20,7 @@ int searech(int* nums, int numsSize, int target) {
         }
         } else {
             if(target> nums[mid] && target <= nums[right]){
-            left = mid + 1;
+            left = mid + 1
             } else {
                 right = mid - 1;
             }
@@ -28,6 +28,7 @@ int searech(int* nums, int numsSize, int target) {
     }
     return -1;
 }
+
 // Function to find the size of a BST with a recursive function
 int size(struct node* node) {
     if (node == NULL) {
